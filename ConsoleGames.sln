@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleGames", "ConsoleGames\ConsoleGames.csproj", "{F1799A74-45FB-495B-B7F7-2583F25DA790}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleGames", "ConsoleGames\ConsoleGames.csproj", "{F1799A74-45FB-495B-B7F7-2583F25DA790}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberGuessing", "NumberGuessing\NumberGuessing.csproj", "{39C44469-6499-47E7-AF2B-8D6A6BFC7646}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberGuessing", "NumberGuessing\NumberGuessing.csproj", "{39C44469-6499-47E7-AF2B-8D6A6BFC7646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordGuessing", "WordGuessing\WordGuessing.csproj", "{01599AAC-F253-49C7-A099-D618E313AEAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{39C44469-6499-47E7-AF2B-8D6A6BFC7646}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39C44469-6499-47E7-AF2B-8D6A6BFC7646}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39C44469-6499-47E7-AF2B-8D6A6BFC7646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01599AAC-F253-49C7-A099-D618E313AEAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01599AAC-F253-49C7-A099-D618E313AEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01599AAC-F253-49C7-A099-D618E313AEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01599AAC-F253-49C7-A099-D618E313AEAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
