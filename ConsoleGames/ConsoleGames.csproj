@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NumberGuessing\NumberGuessing.csproj" />
+    <ProjectReference Include="..\WordGuessing\WordGuessing.csproj" />
   </ItemGroup>
 
 </Project>

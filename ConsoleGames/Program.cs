@@ -1,5 +1,6 @@
 ﻿using System;
 using NumberGuessing;
+using WordGuessing;
 
 namespace ConsoleGames
 {
@@ -17,12 +18,12 @@ namespace ConsoleGames
                 {
                     Console.WriteLine("++++++++++++++++++ Hello Console Gamer! ++++++++++++++++++");
                     Console.WriteLine("Choose a game to play:\n" +
-                        "1. Number Guessing Game");
+                        "1. Number Guessing Game \t2.Word Guessing Game");
 
 
                     option = Convert.ToInt32(Console.ReadLine());
 
-                    if (option != 1)
+                    if (option<1 || option>2)
                     {
                         throw new ArgumentOutOfRangeException("option", "choosen option must be in given options.");
                     }
@@ -45,6 +46,10 @@ namespace ConsoleGames
                 {
                     var choosenGame = new NumberGuessingGame();
                     choosenGame.Home();
+                }
+                else if (option == 2)
+                {
+                    WordGuessingGame.Home();
                 }
             }
         }
